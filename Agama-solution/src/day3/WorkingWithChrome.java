@@ -22,7 +22,7 @@ public class WorkingWithChrome {
 	}
 	
 	public void navigateCommands() {
-		driver.navigate().to("https://faceboo.com");
+		driver.navigate().to("https://facebook.com");
 		driver.navigate().back();
 		driver.navigate().forward();
 		driver.navigate().refresh();

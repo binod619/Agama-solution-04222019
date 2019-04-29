@@ -12,13 +12,18 @@ public class DemoCalculation {
 		System.out.println();
 		System.out.print("Enter your first number::");
 		int num1= input.nextInt();
-		System.out.print("Enter your second number::");
+		/*System.out.print("Enter your second number::");
 		int num2= input.nextInt();
+		System.out.print("Enter your third number::");
+		int num3= input.nextInt();
 		//output of calculation
-		System.out.println("The addition of "+num1+" and "+num2 +" :: "+calculate.addition(num1, num2) );
-		System.out.println("The subtraction of "+num1+" and "+num2 +" :: "+calculate.subtraction(num1, num2) );
-		System.out.println("The multiplication of "+num1+" and "+num2 +" :: "+calculate.multiply(num1, num2) );
-		System.out.println("The division of "+num1+" and "+num2 +" :: "+calculate.division(num1, num2) );
+		//System.out.println("The addition of "+num1+" and "+num2 +" :: "+calculate.addition(num1, num2) );
+		//System.out.println("The subtraction of "+num1+" and "+num2 +" :: "+calculate.subtraction(num1, num2) );
+		//System.out.println("The multiplication of "+num1+" and "+num2 +" :: "+calculate.multiply(num1, num2) );
+		//System.out.println("The division of "+num1+" and "+num2 +" :: "+calculate.division(num1, num2) );
+		calculate.greatest(num1, num2, num3);*/
+		input.close();
+		calculate.reverseNum(num1);
 		
 	}
 
